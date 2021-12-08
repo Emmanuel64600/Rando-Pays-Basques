@@ -5,8 +5,8 @@ body {
 }
 
 .logo-site {
-  height: 220px;
-  width: 220px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
 }
 
@@ -14,16 +14,22 @@ body {
   height: 150px;
   border-radius: 20px;
   background-image: url(/Users/ManuLaeti/Evaluation-1/rando-pays-basques/navbar-img.jpeg);
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
-aside > div {
+.breadcrumb {
+  font-size: 1.2rem;
+  background-color: rgb(190, 202, 255);
+  border-radius: 20px;
+}
+footer {
+  background-color: lightgray;
+  color: black;
+  height: 15vh;
+  align-items: center;
+}
+
+.text-rando {
   text-align: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
 }
-
-
-
-
-
