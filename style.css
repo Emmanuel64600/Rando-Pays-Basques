@@ -29,12 +29,42 @@ footer {
   align-items: center;
 }
 
-.text-rando {
-  text-align: center;
-  justify-content: space-between;
-}
+
 
 .card-img-top {
   height: 400px;
   width: 400px;
+}
+
+form {
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 2em;
+}
+
+form div + div {
+  margin-top: 3em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+}
+
+input, textarea {
+  font: 2em arial sans-serif;
+  width: 600px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+button {
+  margin-left: .5em;
 }
