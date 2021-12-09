@@ -4,17 +4,29 @@ body {
   background-color: rgb(211, 235, 243);
 }
 
+h1 {
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(12, 95, 12);
+}
+
 .logo-site {
   height: 170px;
   width: 170px;
   border-radius: 50%;
 }
 
-.navbar-nav {
+.navbar {
   height: 150px;
   border-radius: 20px;
   background-image: url(/Users/ManuLaeti/Evaluation-1/rando-pays-basques/navbar-img.jpeg);
-  font-size: 2.2rem;
+  font-size: 2rem;
+}
+
+.article-rando {
+  justify-content: center;
 }
 
 .breadcrumb {
@@ -30,15 +42,14 @@ footer {
 }
 
 
-
 .card-img-top {
-  height: 400px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 form {
   margin: 0 auto;
-  width: 800px;
+  width: auto;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 2em;
@@ -55,7 +66,7 @@ label {
 
 input, textarea {
   font: 2em arial sans-serif;
-  width: 600px;
+  width: auto;
   box-sizing: border-box;
   border: 1px solid #999;
 }

@@ -6,42 +6,44 @@
         rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
         crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet">
   <title>RANDO PAYS-BASQUES</title>
 </head>
 <body>
   <header class="container-fluid text-center">
+    <h1>RANDO PAYS BASQUES</h1>
     <div class="row">
-      <div class="col-2">
-        <img class="logo-site" src="/Users/ManuLaeti/Evaluation-1/rando-pays-basques/drapeau pays basques.jpeg">
+      <div class="col-lg-2 col-md-12">
+        <img class="logo-site" src="/Users/ManuLaeti/Evaluation-1/rando-pays-basques/drapeau-pays-basques.jpeg" alt="logo">
       </div>
-      <div class="col-8">
-        <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="col-lg-8 col-md-12">
+        <nav class="navbar navbar-expand navbar-light">
           <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse navbar-nav" id="navbarNav">
             <ul class="navbar-nav align-items-center">
-              <img class="col-3 rounded-circle p-2" style="height: 100px; width: 100px;" src="logo-randonneur.jpeg">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-book m-3" viewBox="0 0 16 16">
-                  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                </svg>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Présentation/Randonnée</a>
+                <a class="nav-link" href="index.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-book m-3" viewBox="0 0 16 16">
+                  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                </svg>Présentation/Randonnée</a>
               </li>
-              <svg xmlns="http://www.w3.org/2000/svg"
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg"
                     width="30" height="30"
                     fill="currentColor"
                     class="bi bi-camera m-3"
                     viewBox="0 0 16 16">
                 <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
                 <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
-              </svg>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Inscriptions</a>
+                </svg>Inscriptions</a>
               </li>
-              <svg xmlns="http://www.w3.org/2000/svg"
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                  <svg xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
                   fill="currentColor"
@@ -49,9 +51,7 @@
                   viewBox="0 0 16 16">
                 <path d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
                 <path d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
-              </svg>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                </svg>Contact</a>
               </li>
             </ul>
           </div>
@@ -59,50 +59,58 @@
             </a>
         </nav>
       </div>
-      <div class="col-2">
-        <img class="logo-site" src="/Users/ManuLaeti/Evaluation-1/rando-pays-basques/drapeau pays basques.jpeg">
+      <div class="col-lg-2 col-md-12">
+      <img class="logo-site" alt="logo" src="/Users/ManuLaeti/Evaluation-1/rando-pays-basques/drapeau-pays-basques.jpeg">
       </div>
     </div>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb m-3 p-3">
         <li class="breadcrumb-item"><a href="index.html">Présentation Randonnée</a></li>
-        <li class="breadcrumb-item active">Inscriptions</a></li>
+        <li class="breadcrumb-item active">Inscriptions</li>
       </ol>
     </nav>
   </header>
-  <article class="container-fluid">
-    <section class="row m-1 justify-content-center">
-      <div class="col-3 card p-2" style="width: 30rem; height: 50rem;">
-      <img src="Rando-1.jpeg" class="card-img-top" alt="Rando-1">
-      <div class="card-body">
-        <h5 class="card-title">Rando Mondarrain</h5>
-        <p class="card-text">
-          La randonnée est composée d'une marche de 15 kms avec un dénivelé positif de 650m.
-        </p>
-        <p>La randonnée est prévu le 18 décembre 2021, départ à 8h30.</p>
-        <a href="#" class="btn btn-primary">Incription à cette randonnée</a>
+  <main>
+  <article>
+    <div class="container-fluid">
+    <section class="row article-rando">
+      <div class="col-lg-3 card p-1;" style="width: 29em;">
+      <img src="Rando-1.jpeg" class="card-img-top p-1" alt="Rando-1">
+        <div class="card-body">
+          <h5 class="card-title">Rando Mondarrain</h5>
+          <p class="card-text">
+            La randonnée est composée d'une marche de 15 kms avec un dénivelé positif de 650m.
+          </p>
+          <p>La randonnée est prévu le 18 décembre 2021, départ à 8h30.</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rando">Incription à cette randonnée</button>
+          </div>
+        </div>
       </div>
-      </div>
-      <div class="row col-3 card p-2" style="width: 30rem; height: 50rem;">
-        <img src="rando-2.jpeg" class="card-img-top" alt="rando-2">
+      <div class="col-lg-3 card p-1;" style="width: 29em;">
+        <img src="rando-2.jpeg" class="card-img-top p-1" alt="rando-2">
         <div class="card-body">
           <h5 class="card-title">Rando Helette</h5>
           <p class="card-text">
             La randonnée est composée d'une marche de 15 kms avec un dénivelé positif de 650m.
           </p>
           <p>La randonnée est prévu le 7 janvier 2022, départ à 8h15.</p>
-          <a href="#" class="btn btn-primary">Incription à cette randonnée</a>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rando">Incription à cette randonnée</button>
+          </div>
         </div>
       </div>
-      <div class="row col-3 card p-2" style="width: 30rem; height: 50rem;">
-        <img src="rando-3.jpeg" class="card-img-top" alt="rando-3">
+      <div class="col-lg-3 card p-1;" style="width: 29em;">
+        <img src="rando-3.jpeg" class="card-img-top p-1" alt="rando-3">
         <div class="card-body">
           <h5 class="card-title">Rando Saint Martin D'Arosa</h5>
           <p class="card-text">
             La randonnée est composée d'une marche de 15 kms avec un dénivelé positif de 550m.
           </p>
           <p>La randonnée est prévu le 23 décembre 2021, départ à 9h00.</p>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#rando">Incription à cette randonnée</button>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rando">Incription à cette randonnée</button>
+          </div>
         </div>
       </div>
     </section>
@@ -110,20 +118,21 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Inscriptions à la randonnée</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+            <h5 class="modal-title" id="inscriptionModalLabel">Validation de votre inscription</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Souhaitez-vous valider votre inscription à la randonné St Martin D'Arosa du 23/12/2021</p>
+            <p> Validez-vous votre inscription pour cette randonnée ?</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-primary">Valider l'inscription</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NON</button>
+            <button type="button" class="btn btn-primary">OUI</button>
           </div>
         </div>
       </div>
     </div>
   </article>
+  </main>
   <footer style="text-align: center;">
     <ul class="nav justify-content-center bg-light">
       <li class="nav-item">
