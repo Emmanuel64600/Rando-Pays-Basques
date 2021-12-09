@@ -12,7 +12,8 @@ h1 {
   color: rgb(12, 95, 12);
 }
 
-.logo-site {
+.logo-site1,
+.logo-site2 {
   height: 170px;
   width: 170px;
   border-radius: 50%;
@@ -79,3 +80,19 @@ textarea {
 button {
   margin-left: .5em;
 }
+
+@media screen and (max-width:700px) and (orientation:landscape) {
+  .card-img-top {
+    display: none;
+  }
+  .breadcrumb {
+    display: none;
+  }
+  .logo-site2 {
+    display: none;
+  }
+  .navigation {
+    width: max-content;
+  }
+}
+
